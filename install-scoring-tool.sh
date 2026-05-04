@@ -8,7 +8,7 @@ if ((BASH_VERSINFO[0] < 3 || (BASH_VERSINFO[0] == 3 && BASH_VERSINFO[1] < 2))); 
 fi
 
 REPO_OWNER="LerianStudio"
-REPO_NAME="k8s-scoring-tool"
+REPO_NAME="lerian-k8s-scoring-tool"
 REPO_BRANCH="main"
 REPO_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}"
 TARBALL_URL="${REPO_URL}/archive/refs/heads/${REPO_BRANCH}.tar.gz"
